@@ -1,0 +1,12 @@
+Column Name,Data Type,Description,Example
+invoice_no,VARCHAR(50),Unique invoice number for each customer transaction,INV-10245
+customer_id,VARCHAR(50),Unique identifier assigned to each customer,CUST-5678
+gender,VARCHAR(50),Gender of the customer (standardized as MALE/FEMALE),MALE
+age,INT,Age of the customer in years,32
+category,VARCHAR(50),Product category purchased by the customer,ELECTRONICS
+quantity,INT,Number of items purchased in a transaction,2
+price,"NUMERIC(10,2)",Price of the product per transaction,15999.99
+payment_method,VARCHAR(50),Payment mode used by the customer,CREDIT CARD
+invoice_date,DATE,Date when the purchase was made,6/15/2024
+shopping_mall,VARCHAR(50),Name of the shopping mall where purchase occurred,CITY CENTER MALL
+DOB,DATE,Customer date of birth derived from age,6/15/1992
